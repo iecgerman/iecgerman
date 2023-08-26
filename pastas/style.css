@@ -15,3 +15,40 @@ main {
     margin: 0 auto; /* esto hace que no tenga margen ni arriba ni abajo y a los lados siempre este centrado */
 }
 
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* esta propiedad lo que hace es que nuestra imagen se ajuste al espacio que esta ocupando, no se ve distorcionada ni tampoco nos va a faltar parte de la imagen */
+}
+
+.hero__info {
+    align-self: center;
+}
+
+.hero__title {
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.hero__texto {
+    color: #333;
+    font: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.hero__button {
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    background-color: #fb8c00;
+    font-weight: bolder;
+    padding: 12px 24px;
+}
