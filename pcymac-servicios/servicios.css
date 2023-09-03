@@ -88,7 +88,9 @@ main {
 /* ------------------------------------------------------------ */
 /*                        TERCERA SECCION                       */
 /* ------------------------------------------------------------ */
-
+.marcas {
+      margin-bottom: 100px;
+}
 .marcas__grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
@@ -96,7 +98,7 @@ main {
       gap: 2.5rem;
       place-content: center;
 
-      background-color: #585857;
+      /* background-color: #585857; */
 }
 
 .marcas__imagen img {
@@ -116,9 +118,9 @@ main {
 
 .footer__grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
       
-      padding: 100px;
+      padding: 10px;
       justify-content: center;
 }
 
@@ -128,14 +130,16 @@ color: #ededed;
 } */
 
 .footer__item {
-margin: 0 auto;  /* Con esto ya pude centrarlo */
+      margin: 0 auto;  /* Con esto ya pude centrarlo */
+      padding: 10px;
+      width: 320px;
 } 
 
 .footer__autor{
       display: grid;
       grid-template-columns: 1fr;
       justify-items: center;
-      padding-bottom: 50px;
+      padding-bottom: 20px;
       width: auto;
 }
 
@@ -143,7 +147,7 @@ margin: 0 auto;  /* Con esto ya pude centrarlo */
 /*                     SECCION RESPONSIVA                       */
 /* ------------------------------------------------------------ */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
       .hero {
             grid-template-columns: minmax(300px, 500px);
@@ -167,5 +171,12 @@ margin: 0 auto;  /* Con esto ya pude centrarlo */
       /* .marcas__grid {
             grid-template-columns: repeat(auto-fit, minmax(320px, 425px));
       } */
+      .footer {  
+            font-size: 1.2rem;
+      }
+
+      .footer__item {
+            width: 280px;
+      } 
 
 }
