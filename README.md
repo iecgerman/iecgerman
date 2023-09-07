@@ -2,19 +2,19 @@
 
 Estos son algunos proyectos de los cursos que he hecho hasta el momento, espero pronto hacer más:
 
-# Curso Práctico de Frontend Developer
+## Curso Práctico de Frontend Developer
 https://iecgerman.github.io/yardsale/
 
-# Curso Práctico de HTML y CSS
+## Curso Práctico de HTML y CSS
 https://iecgerman.github.io/googleclone/
 
-# Curso de Responsive Design: Maquetación Mobile First
+## Curso de Responsive Design: Maquetación Mobile First
 https://iecgerman.github.io/batatabit/
 
-# Curso de Fundamentos de Sass: Crea tu Primera Landing Page
+## Curso de Fundamentos de Sass: Crea tu Primera Landing Page
 https://iecgerman.github.io/ecostore/
 
-# Curso de CSS Grid Básico
+## Curso de CSS Grid Básico
 https://iecgerman.github.io/pastas/
 
 
