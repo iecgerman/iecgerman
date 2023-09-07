@@ -1,19 +1,24 @@
 ### Hi there 👋 HOLA
 
-Estos son algunos proyectos que he hecho hasta el momento, espero pronto hacer de más clientes:
+Estos son algunos proyectos de los cursos que he hecho hasta el momento, espero pronto hacer más:
 
-https://iecgerman.github.io/batatabit/
-
-https://iecgerman.github.io/ecostore/ 
-
-https://iecgerman.github.io/googleclone/
-
-https://iecgerman.github.io/pastas/
-
+# Curso Práctico de Frontend Developer
 https://iecgerman.github.io/yardsale/
 
+# Curso Práctico de HTML y CSS
+https://iecgerman.github.io/googleclone/
 
-Proyectos de Clientes:
+# Curso de Responsive Design: Maquetación Mobile First
+https://iecgerman.github.io/batatabit/
+
+# Curso de Fundamentos de Sass: Crea tu Primera Landing Page
+https://iecgerman.github.io/ecostore/
+
+# Curso de CSS Grid Básico
+https://iecgerman.github.io/pastas/
+
+
+Estos son algunos de los pocos proyectos de clientes que he podido conseguir hasta el momento, espero poder conseguir más pero sobre todo hacerlos cada vez con mayor calidad:
 
 https://viajesvirgo.com/ (2022)
 
