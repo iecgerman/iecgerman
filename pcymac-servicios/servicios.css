@@ -46,6 +46,29 @@ main {
       object-fit: contain;
 }
 
+
+.gente-mugrosa {
+      width: 100%;
+      height: auto;
+      font-size: 3rem;
+      color: blue;      
+}
+.contenedor__principal p {
+      display: grid;
+      justify-content: center;
+      max-width: 90%;
+      margin: 4rem auto;
+}
+.contenedor__principal img {
+      display: grid;
+      margin: 4rem auto;
+}
+.contenedor__principal audio {
+      display: grid;
+      margin: 4rem auto;
+}
+
+
 /* ------------------------------------------------------------ */
 /*                        SEGUNDA SECCION                       */
 /* ------------------------------------------------------------ */
@@ -149,6 +172,20 @@ color: #ededed;
 /* ------------------------------------------------------------ */
 
 @media screen and (max-width: 768px) {
+
+      .gente-mugrosa {
+            width: 425px;
+            font-size: 1.6rem;
+      }
+      .contenedor__principal p {
+      }
+      .contenedor__principal img {
+            max-width: 425px;
+      }
+      .contenedor__principal audio {
+            display: grid;
+            margin: 4rem auto;
+      }
 
       .hero {
             grid-template-columns: minmax(300px, 500px);
