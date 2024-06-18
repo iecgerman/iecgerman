@@ -48,10 +48,12 @@ main {
 
 
 .gente-mugrosa {
-      width: 100%;
+      /* width: 100%; */
       height: auto;
       font-size: 3rem;
-      color: blue;      
+      color: blue;
+      max-width: 800px; 
+      margin: auto;
 }
 .contenedor__principal p {
       display: grid;
@@ -62,6 +64,7 @@ main {
 .contenedor__principal img {
       display: grid;
       margin: 4rem auto;
+      max-width: 800px;
 }
 .contenedor__principal audio {
       display: grid;
